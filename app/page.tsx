@@ -1,14 +1,7 @@
 "use client";
-import Link from "next/link";
-import ProductCart from "./components/ProductCart";
-import { useSession } from "next-auth/react";
-import picture from "../assets/me.jpeg";
-import { profile } from "console";
 import "./ProfilePicture.css";
 
 export default function Home() {
-  const { status, data: session } = useSession();
-
   if (status === "loading")
     return (
       <div className="h-screen flex items-center justify-center">
