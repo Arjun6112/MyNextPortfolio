@@ -141,7 +141,7 @@ export default function Home() {
           <div className="w-80 rounded-full ">
             {/* <div className="hero-img h-28 w-28"></div> */}
             <img
-              className="hero-img "
+              // className="hero-img "
               height={18}
               width={18}
               src="https://pbs.twimg.com/profile_images/1659931155473502209/wqtivq9p_400x400.jpg"
