@@ -2,13 +2,6 @@
 import "./ProfilePicture.css";
 
 export default function Home() {
-  if (status === "loading")
-    return (
-      <div className="h-screen flex items-center justify-center">
-        <span className="loading loading-spinner loading-lg mx-auto my-auto"></span>
-      </div>
-    );
-
   return (
     <main>
       <div className="navbar bg-base-10 mb-20">
